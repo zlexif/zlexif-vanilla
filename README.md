@@ -2,14 +2,14 @@
 join **[Discord] https://discord.gg/XAV4AfgQaZ** |
 
 # Required
-[qb-core](https://github.com/qbcore-framework/qb-core)
-[qb-management](https://github.com/qbcore-framework/qb-management)
-[qb-target](https://github.com/qbcore-framework/qb-target)
-[gabz vanilla unicorn mlo](https://fivem.gabzv.com/package/4724693)
-[progressbar](https://github.com/qbcore-framework/progressbar)
-[qb-input](https://github.com/qbcore-framework/progressbar)
-[qb-menu](https://github.com/qbcore-framework/qb-menu)
-[qb-smallresources](https://github.com/qbcore-framework/qb-smallresources)
+- [qb-core](https://github.com/qbcore-framework/qb-core)
+- [qb-management](https://github.com/qbcore-framework/qb-management)
+- [qb-target](https://github.com/qbcore-framework/qb-target)
+- [gabz vanilla unicorn mlo](https://fivem.gabzv.com/package/4724693)
+- [progressbar](https://github.com/qbcore-framework/progressbar)
+- [qb-input](https://github.com/qbcore-framework/progressbar)
+- [qb-menu](https://github.com/qbcore-framework/qb-menu)
+- [qb-smallresources](https://github.com/qbcore-framework/qb-smallresources)
 # OLD QBCORE :
 
 # **qb-core/shared/items.lua**
