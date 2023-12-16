@@ -2,17 +2,18 @@
 join **[Discord] https://discord.gg/XAV4AfgQaZ** |
 
 # Required
-qb-core (https://github.com/qbcore-framework/qb-core)
-qb-management (https://github.com/qbcore-framework/qb-management)
-qb-target (https://github.com/qbcore-framework/qb-target)
-gabz vanilla unicorn mlo (https://fivem.gabzv.com/package/4724693)
-progressbar (https://github.com/qbcore-framework/progressbar)
-qb-input (https://github.com/qbcore-framework/progressbar)
-qb-menu (https://github.com/qbcore-framework/qb-menu)
-qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
+[qb-core](https://github.com/qbcore-framework/qb-core)
+[qb-management](https://github.com/qbcore-framework/qb-management)
+[qb-target](https://github.com/qbcore-framework/qb-target)
+[gabz vanilla unicorn mlo](https://fivem.gabzv.com/package/4724693)
+[progressbar](https://github.com/qbcore-framework/progressbar)
+[qb-input](https://github.com/qbcore-framework/progressbar)
+[qb-menu](https://github.com/qbcore-framework/qb-menu)
+[qb-smallresources](https://github.com/qbcore-framework/qb-smallresources)
 # OLD QBCORE :
 
 # **qb-core/shared/items.lua**
+```
 -- Vanilla Unicorn
 	--Ingredients
 	["cabbage"] 					= {["name"] = "cabbage",  	     			["label"] = "Cabbage",	 			    ["weight"] = 100, 		["type"] = "item", 		["image"] = "cabbage.png", 		    ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
@@ -36,7 +37,9 @@ qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
 	-- Salads
 	["vegansalad"] 					= {["name"] = "vegansalad",  	    	 	["label"] = "Vegan Salad",		 		["weight"] = 1000, 		["type"] = "item", 		["image"] = "vegansalad.png", 		["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
 	["shrimpsalad"] 				= {["name"] = "shrimpsalad",  	     		["label"] = "Shrimp Salad",	 		    ["weight"] = 1100, 		["type"] = "item", 		["image"] = "shrimpsalad.png", 		["unique"] = true, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
+```
 # **qb-smallresources/config.lua**
+```
 	ConsumeablesDrink = {
 	    ["lemonade"] = math.random(40, 60),
 	}
@@ -61,8 +64,9 @@ qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
 	    ["kamikaze"] = math.random(35, 55),
 		["brussian"] = math.random(25, 45),
 	}
-
+```
 # **qb-core/shared/jobs.lua**
+```
    ['vanilla'] = {
 		label = 'Vanilla Unicorn',
 		defaultDuty = true, -- If whenever you see the job your defaultly on duty
@@ -94,10 +98,12 @@ qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
         },
 	},
 	
-	
-	# NEW QBCORE :
-# **qb-core/shared/items.lua**
+```
+# NEW QBCORE :
 
+- # **qb-core/shared/items.lua**
+
+```
 
 --  ██╗   ██╗ █████╗ ███╗   ██╗██╗██╗     ██╗      █████╗     ██╗   ██╗███╗   ██╗██╗ ██████╗ ██████╗ ██████╗ ███╗   ██╗
 --  ██║   ██║██╔══██╗████╗  ██║██║██║     ██║     ██╔══██╗    ██║   ██║████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗████╗  ██║
@@ -132,9 +138,9 @@ qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
 
 
 
-
+```
 # **qb-smallresources/config.lua**
-
+```
          drink = { 
         ["lemonade"] = math.random(40, 60),
 	    }
@@ -161,8 +167,9 @@ qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
 	}
 	
 	
-	
-	# **qb-core/shared/jobs.lua**
+```
+- # **qb-core/shared/jobs.lua**
+```
 
 --  ██╗   ██╗ █████╗ ███╗   ██╗██╗██╗     ██╗      █████╗     ██╗   ██╗███╗   ██╗██╗ ██████╗ ██████╗ ██████╗ ███╗   ██╗
 --  ██║   ██║██╔══██╗████╗  ██║██║██║     ██║     ██╔══██╗    ██║   ██║████╗  ██║██║██╔════╝██╔═══██╗██╔══██╗████╗  ██║
@@ -201,3 +208,4 @@ qb-smallresources (https://github.com/qbcore-framework/qb-smallresources)
             },
         },
 	},
+```
