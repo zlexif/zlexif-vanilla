@@ -1,8 +1,5 @@
 local QBCore = exports['qb-core']:GetCoreObject()
 
-----------------------------------------------------
---------- Blips
-----------------------------------------------------
 CreateThread(function()
     if Config.Blip.Enable then
         local blip = AddBlipForCoord(Config.Blip.Location) 
@@ -16,10 +13,6 @@ CreateThread(function()
         EndTextCommandSetBlipName(blip)
     end
 end)
-
-----------------------------------------------------
---------- Events
-----------------------------------------------------
 
 AddEventHandler('QBCore:Client:OnPlayerLoaded', function()
     local player = QBCore.Functions.GetPlayerData()
@@ -75,9 +68,6 @@ RegisterNetEvent("zlexif-vu:Client:OpenShop", function(index)
         slots = #Config.Items,
     })
 end);
-
-
--- || ===============> Invoice
  
 RegisterNetEvent('zlexif-vu:Client:Invoicing', function()
     if Config.JimPayments then
